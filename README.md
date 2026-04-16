@@ -1,91 +1,91 @@
-# Lab IaCD : Laboratório de Introdução à IA e Ciência de Dados
+# Lab IaCD : Introduction to AI and Data Science
 
-## Descrição
+## Description
 
-Este repositório reúne os trabalhos práticos desenvolvidos no âmbito da cadeira de **Introdução à Inteligência Artificial e Ciência de Dados (IaCD)**. Os projetos cobrem duas grandes áreas: **aprendizagem por reforço** com uma implementação inspirada no AlphaZero, e **classificação médica** com machine learning aplicado ao cancro do pulmão.
+This repository contains the practical work developed for the course **Introduction to Artificial Intelligence and Data Science (IaCD)**. The projects cover two main areas: **reinforcement learning** with an AlphaZero-inspired implementation, and **medical classification** with machine learning applied to lung cancer detection.
 
 ---
 
-## Estrutura do Repositório
+## Repository Structure
 
 ```
 Lab_IaCD/
 │
-├── AlphaZero/                    # Implementação de agente com aprendizagem por reforço
+├── AlphaZero/                    # Reinforcement learning agent implementation
 │   └── ...
 │
-└── LungCancerClassification/     # Classificação de cancro do pulmão com ML
+└── LungCancerClassification/     # Lung cancer classification with ML
     └── ...
 ```
 
 ---
 
-## Projetos
+## Projects
 
 ### AlphaZero
 
-Implementação de um agente de inteligência artificial inspirado no **AlphaZero** da DeepMind, que combina **Monte Carlo Tree Search (MCTS)** com redes neurais profundas para aprender a jogar jogos de tabuleiro sem conhecimento prévio — apenas através de auto-jogo (*self-play*).
+Implementation of an AI agent inspired by **DeepMind's AlphaZero**, combining **Monte Carlo Tree Search (MCTS)** with deep neural networks to learn to play board games from scratch — purely through self-play, with no prior domain knowledge.
 
-**Conceitos abordados:**
-- Aprendizagem por reforço (*Reinforcement Learning*)
+**Key concepts:**
+- Reinforcement Learning
 - Monte Carlo Tree Search (MCTS)
-- Redes neurais convolucionais (CNN) para avaliação de estados
-- Self-play e treino iterativo
+- Convolutional Neural Networks (CNN) for state evaluation
+- Self-play and iterative training
 
 ---
 
 ### LungCancerClassification
 
-Projeto de **classificação de cancro do pulmão** utilizando técnicas de machine learning e/ou deep learning. O objetivo é prever o diagnóstico (benigno/maligno) ou o tipo de cancro com base em dados clínicos ou de imagem.
+A **lung cancer classification** project using machine learning and/or deep learning techniques. The goal is to predict the diagnosis (benign/malignant) or cancer type based on clinical or imaging data.
 
-**Conceitos abordados:**
-- Pré-processamento e limpeza de dados
-- Análise exploratória (EDA)
-- Treino e avaliação de modelos de classificação
-- Métricas de avaliação: accuracy, precision, recall, F1-score, AUC-ROC
+**Key concepts:**
+- Data preprocessing and cleaning
+- Exploratory Data Analysis (EDA)
+- Training and evaluation of classification models
+- Evaluation metrics: accuracy, precision, recall, F1-score, AUC-ROC
 
 ---
 
-## Tecnologias Utilizadas
+## Technologies & Libraries
 
 - **Python 3**
 - **Jupyter Notebook**
-- Bibliotecas prováveis:
-  - `numpy`, `pandas` — manipulação de dados
-  - `matplotlib`, `seaborn` — visualização
-  - `scikit-learn` — modelos de ML clássicos
-  - `tensorflow` / `pytorch` — redes neurais (AlphaZero)
-  - `scipy` — análise estatística
+- Likely libraries:
+  - `numpy`, `pandas` — data manipulation
+  - `matplotlib`, `seaborn` — visualization
+  - `scikit-learn` — classical ML models
+  - `tensorflow` / `pytorch` — neural networks (AlphaZero)
+  - `scipy` — statistical analysis
 
 ---
 
-## Como Executar
+## Getting Started
 
-1. Clona o repositório:
+1. Clone the repository:
    ```bash
    git clone https://github.com/andrevieira1203/Lab_IaCD.git
    cd Lab_IaCD
    ```
 
-2. Instala as dependências:
+2. Install dependencies:
    ```bash
    pip install numpy pandas matplotlib seaborn scikit-learn tensorflow jupyter
    ```
 
-3. Abre o projeto pretendido:
+3. Open the desired project:
    ```bash
-   # Para o AlphaZero
+   # AlphaZero
    jupyter notebook AlphaZero/
 
-   # Para a Classificação do Cancro do Pulmão
+   # Lung Cancer Classification
    jupyter notebook LungCancerClassification/
    ```
 
 ---
 
-## Linguagens
+## Languages
 
-| Linguagem | Percentagem |
+| Language | Percentage |
 |---|---|
 | Jupyter Notebook | 75.2% |
 | Python | 24.8% |
